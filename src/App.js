@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
@@ -11,9 +11,15 @@ function App() {
       <div className="App">
         <nav>
           <ul>
-            <li><a href="/">Haqqında</a></li>
-            <li><a href="/portfolio">İş nümunələri</a></li>
-            <li><a href="/contact">Əlaqə</a></li>
+            <li>
+              <Link to="/">Haqqında</Link>
+            </li>
+            <li>
+              <Link to="/portfolio">İş nümunələri</Link>
+            </li>
+            <li>
+              <Link to="/contact">Əlaqə</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
