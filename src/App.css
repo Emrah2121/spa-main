@@ -1,0 +1,32 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+body{
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+h1 {
+  color: #f6ff00;
+}
+
+p {
+  color: #000000;
+}
